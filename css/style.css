@@ -423,6 +423,13 @@ body {
   
 }
 
+@media screen and (max-width: 600px)
+{
+  .about-content
+  {
+    flex-direction:column;
+  }
+}
 /* skills */
 
 
