@@ -806,7 +806,7 @@ body {
 footer{
   margin-top: -5rem;
   background: #111;
-  padding: 15px 23px;
+  padding: 0px 30px;
   color: #fff;
   text-align: center;
 }
@@ -817,7 +817,9 @@ footer span a{
 footer span a:hover{
   text-decoration: underline;
 }
-
+footer p:hover{
+  color: #ffcd42;
+}
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
