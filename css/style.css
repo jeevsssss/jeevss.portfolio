@@ -192,7 +192,6 @@ body {
   position: relative;
   transition: 0.5s ease-in-out;
 }
-
 .project-bio {
   display: flex;
   flex-direction: column;
@@ -200,6 +199,33 @@ body {
   position: relative;
   top: 160px;
   left: 10px;
+}
+
+@media (max-width: 768px) {
+  .project-bio {
+    bottom: 80%;
+    left: 0%;
+  }
+
+  .project-bio h3
+  {
+    text-align: left;
+    margin-bottom: -0.3rem;
+  }
+  
+  .project-info {
+    opacity: 1;
+    transition: none;
+  }
+  
+  .project {
+    grid-template-columns: 1fr; /* Display projects in a single column */
+    grid-auto-rows: minmax(300px, auto); /* Adjust the row height as needed */
+  }
+  
+  .card {
+    height: auto; /* Allow card height to expand with project content */
+  }
 }
 
 /* Footer */
